@@ -1,0 +1,31 @@
+const database = 'mekanbul';
+use(database);
+db.venues.insertOne(
+{
+  "name": "Gıt Gıt Döner",
+  "address": "Dumlupınar Dumlupınar Mh. Süleyman Gönçer Cd. No:5/1 Kat:2 Sevgi Yolu-AKBANK Karşısı, 03200 Afyonkarahisar Merkez",
+  "rating": 4.5,
+  "foodanddrink": [
+    "tavuk dürüm",
+    "tavuk döner",
+    "ayran"
+  ],
+  "coordinates": [
+    38.75634248188138, 30.540418700000004
+  ],
+  "hours": [
+    {
+      "days": "Pazartesi-cuma",
+      "open": "11:00",
+      "close": "00:00",
+      "isClosed": false
+    },
+    {
+      "days": "Cumartesi-Pazar",
+      "open": "11:00",
+      "close": "00:00",
+      "isClosed":false 
+    }
+  ]
+}
+ );
